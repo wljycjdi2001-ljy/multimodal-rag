@@ -1,0 +1,32 @@
+# 가상환경
+.venv/
+venv/
+env/
+
+# 환경 변수 (API 키 등)
+.env
+.env.*
+!.env.example
+
+# Python 캐시 / 빌드 산출물
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 테스트 / 도구 캐시
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# 데이터: 원본 invest.pdf만 올리고 나머지 테스트 PDF/추출 이미지는 제외
+data/*
+!data/invest.pdf
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+langchain>=1.0
+langchain-classic>=1.0  # MultiVectorRetriever (split out of langchain 1.x, required)
+langchain-openai
+langchain-community
+langchain-chroma
+langchain-experimental
+langchain-ollama
+unstructured[all-docs]
+langchain-unstructured
+unstructured-inference
+python-magic-bin
+pillow
+pydantic
+lxml
+matplotlib
+chromadb
+tiktoken
+python-dotenv
+ipykernel
+jupyterlab
