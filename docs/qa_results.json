@@ -1,0 +1,37 @@
+[
+  {
+    "question": "OECD 국가 아동의 상대적 빈곤율(2022)에서 빈곤율이 가장 높은 나라는 어디이고 몇 %인가요? 한국과 비교해 주세요.",
+    "multimodal_answer": "OECD 국가 중 아동 상대적 빈곤율이 가장 높은 나라는 코스타리카로 28.5%입니다(그래프 이미지에서 읽은 값임). 한국의 아동 상대적 빈곤율은 2022년 기준 9.5%입니다. 수치로 비교하면 코스타리카(28.5%)가 한국(9.5%)보다 높습니다.",
+    "multimodal_sources": "image(figure-5-242.jpg), image(figure-16-275.jpg), text(text-10), table(table-4), text(text-2)",
+    "text_answer": "자료에서 OECD 국가 중 아동의 상대적 빈곤율(2022)이 가장 높은 나라와 그 수치는 확인할 수 없습니다. 다만 우리나라 아동‧청소년(0~17세)의 상대적 빈곤율은 ’22년 기준 9.5%이며 OECD 37개국 중 12위입니다.",
+    "text_sources": "text(text-10), text(text-2), text(text-1), text(text-0), text(text-6)"
+  },
+  {
+    "question": "2023년 농어촌 지역 아동의 문화체육시설 접근성은 대도시와 비교해 몇 %인가요?",
+    "multimodal_answer": "그래프 이미지에서 읽은 값에 따르면 2023년 농어촌 지역 아동의 문화체육시설 접근성은 57.6%이고 대도시는 74.8%입니다. 따라서 농어촌(57.6%)이 대도시(74.8%)보다 낮습니다.",
+    "multimodal_sources": "text(text-6), image(figure-10-260.jpg), image(figure-6-245.jpg), image(figure-10-258.jpg), table(table-4)",
+    "text_answer": "자료에 따르면 2023년 농어촌 지역의 문화체육시설 접근성은 대도시에 비해 17%p 이상 낮습니다. 따라서 농어촌의 접근성이 대도시보다 낮습니다.",
+    "text_sources": "text(text-6), text(text-10), text(text-1), text(text-5), text(text-3)"
+  },
+  {
+    "question": "2021년 중·고등학생의 흡연율과 음주율은 각각 몇 %인가요?",
+    "multimodal_answer": "2021년 중·고등학생의 흡연율은 5.2%이고 음주율은 10.7%입니다. 자료는 본문 표(흡연율 및 음주율 2019~2024)를 근거로 했습니다.",
+    "multimodal_sources": "table(table-3), text(text-8), text(text-7), text(text-5), text(text-4)",
+    "text_answer": "자료에서 2021년 중·고등학생의 흡연율과 음주율을 직접 확인할 수 없습니다. 제공된 본문에는 ’19년과 ’24년 수치(흡연율 ’19년 7.3% → ’24년 4.5%, 음주율 ’19년 15.0% → ’24년 9.7%)만 제시되어 있으며, 2021년 수치는 자료에 없습니다.",
+    "text_sources": "text(text-7), text(text-8), text(text-6), text(text-5), text(text-3)"
+  },
+  {
+    "question": "OECD 국가의 15세 청소년 삶의 만족도(2022)에서 가장 높은 나라와 가장 낮은 나라는 어디이며, 한국은 몇 %인가요?",
+    "multimodal_answer": "그래프 이미지에서 읽은 값에 따르면 15세 OECD 국가 중 삶의 만족도가 가장 높은 나라는 네덜란드로 87%입니다. 가장 낮은 나라는 터키로 43%입니다. 한국은 그래프상 65%로 나타나며, 네덜란드(87%)보다 낮고 터키(43%)보다 높습니다.",
+    "multimodal_sources": "text(text-10), image(figure-16-275.jpg), image(figure-5-242.jpg), text(text-9), table(table-4)",
+    "text_answer": "OECD 국가 중 15세 청소년의 삶의 만족도가 가장 높은 나라와 가장 낮은 나라는 자료에서 확인할 수 없습니다. 한국의 15세 청소년 삶의 만족도는 65%입니다.",
+    "text_sources": "text(text-10), text(text-0), text(text-9), text(text-6), text(text-1)"
+  },
+  {
+    "question": "2025년 아동·청소년 인구는 전체 인구의 몇 %이고, 이주배경 아동·청소년 비율은 몇 %인가요?",
+    "multimodal_answer": "2025년 아동·청소년(0~18세) 인구는 전체 인구의 13.7%입니다. 이주배경 아동·청소년 비율은 6.3%입니다.",
+    "multimodal_sources": "text(text-1), image(figure-4-238.jpg), image(figure-4-237.jpg), text(text-3), text(text-0)",
+    "text_answer": "2025년 아동·청소년(0~18세) 인구는 전체 인구의 13.7%입니다. 이주배경 아동·청소년 비율은 6.3%입니다.",
+    "text_sources": "text(text-1), text(text-0), text(text-10), text(text-9), text(text-3)"
+  }
+]

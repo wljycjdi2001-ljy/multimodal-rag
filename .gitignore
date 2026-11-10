@@ -30,3 +30,11 @@ data/*
 .idea/
 .DS_Store
 Thumbs.db
+
+#pkl 파일
+processed/
+*.pkl
+
+# 수업 연습용 노트북 (다른 PDF로 실습한 결과라 제출물에서 제외)
+/0*_*.ipynb
+src/*.ipynb

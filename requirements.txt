@@ -1,20 +1,31 @@
-langchain>=1.0
-langchain-classic>=1.0  # MultiVectorRetriever (split out of langchain 1.x, required)
-langchain-openai
-langchain-community
-langchain-chroma
-langchain-experimental
-langchain-ollama
-unstructured[all-docs]
-langchain-unstructured
-unstructured-inference
-python-magic-bin
-pillow
-pydantic
-lxml
-matplotlib
-chromadb
-tiktoken
-python-dotenv
-ipykernel
-jupyterlab
+# -*- coding: utf-8 -*-
+# (위 줄은 Windows에서 pip이 한글 주석을 읽을 수 있게 하는 UTF-8 선언입니다. 지우지 마세요)
+
+# ── LangChain 계열: LLM 앱을 조립하는 프레임워크 ──
+langchain>=1.0                  # 핵심 프레임워크. 프롬프트, 모델, 체인을 연결
+langchain-classic>=1.0          # 1.x에서 분리된 옛 기능 모음. MultiVectorRetriever(필수)가 여기 있음
+langchain-openai                # OpenAI 모델(GPT, 임베딩) 연결
+langchain-community             # 커뮤니티가 만든 각종 로더/연동 모음
+langchain-chroma                # 벡터DB Chroma를 LangChain에서 쓰는 연결 다리
+langchain-experimental          # 실험적 기능 모음
+langchain-ollama                # 내 PC에서 돌리는 로컬 모델(Ollama: Llama, LLaVA 등) 연결
+
+# ── 문서 파싱: PDF에서 텍스트/표/이미지를 뽑아냄 ──
+unstructured[all-docs]          # PDF, Word, 이미지 등을 구조(제목/본문/표)별로 분해. all-docs는 모든 형식 지원
+langchain-unstructured          # unstructured를 LangChain 문서 로더(UnstructuredLoader)로 연결
+unstructured-inference          # hi_res 전략에서 레이아웃(표/그림 위치)을 인식하는 AI 모델
+python-magic-bin                # 파일 종류 판별용 libmagic의 Windows 버전. 없으면 import 에러
+
+# ── 이미지·데이터·검색 ──
+pymupdf                         # PDF 텍스트 레이어에서 표 글자·그래프 제목 읽기
+pillow                          # 이미지 열기/변환(PIL)
+pydantic                        # 데이터 구조 검증. LangChain 내부에서도 사용
+lxml                            # XML/HTML 파싱 (문서 처리에서 사용)
+matplotlib                      # 그래프/이미지 화면 출력
+chromadb                        # 벡터DB. 요약문을 숫자(임베딩)로 저장해 의미로 검색
+tiktoken                        # OpenAI 토큰 수 계산기 (텍스트 길이 조절용)
+
+# ── 개발 환경 ──
+python-dotenv                   # .env 파일의 API 키를 불러옴
+ipykernel                       # VS Code에서 .ipynb 노트북을 실행하는 엔진
+jupyterlab                      # 브라우저에서 쓰는 노트북 편집기 (선택)
